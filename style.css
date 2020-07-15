@@ -80,7 +80,7 @@
   .btn{
    cursor: pointer;
    background-color: orange;
-   height: 25px;
+   height: 30px;
   }
   .btn:hover{
     background-color: #326292;
@@ -146,6 +146,12 @@
   }
     .search{
     width: 210px;
+    }
+    div.hum{
+        padding:20px;
+    }
+    .weather div {
+        padding:20px;
     }
   
   
