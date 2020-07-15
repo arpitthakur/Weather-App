@@ -153,6 +153,16 @@
     .weather div {
         padding:20px;
     }
+    menu__btn {
+        cursor: pointer;
+        background-color: orange;
+        height: 25px;
+    }
+    menu__city {
+        width: 250px;
+        border: 4px solid #326292;
+        box-sizing: border-box;
+    }
   
   
 
