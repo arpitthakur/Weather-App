@@ -42,10 +42,10 @@
 .row{
   display: flex;
 }
-  __menu{
+  menu{
    justify-content: flex-end;
   }
-  __weather{
+  .weather{
     justify-content: center;
   }
 
@@ -72,31 +72,27 @@
   margin-left: 15px;
   margin-bottom: 20px;
 }
-  __city{
+  .city{
     width: 250px;
     border: 4px solid #326292;
     box-sizing: border-box;
   }
-  __btn{
+  .btn{
    cursor: pointer;
    background-color: orange;
    height: 25px;
   }
-  __btn:hover{
+  .btn:hover{
     background-color: #326292;
   }
-  --loc{
+  .loc{
     width: 200px;
     display: none;
     margin: 20px;
   }
 
 
-.footer{
-  background-color: #326292;
-  padding: 10px 0;
-  flex-shrink: 0;
-}
+
 
 @media (max-width: 992px) {
   .col992px{
@@ -141,14 +137,14 @@
   .row{
    flex-direction: column;
   }
-    __menu{
+    .menu{
       justify-content: center;
     }
   }
   .menu{
     margin: 12px auto;
   }
-    --search{
+    .search{
     width: 210px;
     }
   
